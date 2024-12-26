@@ -1,0 +1,32 @@
+#wrapper{
+    max-width: 800px;
+    min-height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 39px;
+    color: white;
+}
+#left_panel{
+    min-height: 500px;
+    background-color: #E9FFD5;
+    flex: 1;
+}
+#right_panel{
+    min-height: 400px;
+    background-color: #D9FFB0;
+    flex:4;
+}
+#header{
+    background-color: #B5E61D;
+    height:70px;
+}
+#inner_left_panel{
+    background-color: #a3b372;
+    min-height: 430px;
+    flex:1
+}
+#inner_right_panel{
+    background-color: rgb(87, 105, 33);
+    min-height:430px;
+    flex:1;
+}
