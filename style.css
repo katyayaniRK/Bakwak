@@ -10,6 +10,8 @@
     min-height: 500px;
     background-color: #E9FFD5;
     flex: 1;
+    padding: 10px; 
+    text-align: center;                  
 }
 #right_panel{
     min-height: 400px;
@@ -29,4 +31,22 @@
     background-color: rgb(87, 105, 33);
     min-height:430px;
     flex:1;
+}
+.fa-solid{
+    color: rgb(87, 105, 33);
+    border:solid 3px rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 90px;
+    width: 100px;
+    font-size: 3em;
+    justify-content: center;
+    align-content: center;
+}
+i.fa-solid.fa-user{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+#user{
+    color: #B5E61D;
 }
