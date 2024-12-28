@@ -12,17 +12,33 @@
 
         <div id="left_panel">
             <div id="user">
-            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-user" id="prof_img"></i>
             <br>
             Username
-            <br>
+            <br >
+            <span>
             test@gmail.com
+            </span>
+            <br>
+            <br>
+            <br>
+            <label for="radio_chat">Chat <i class="fa-solid fa-comment" id="this"></i> </label>
+            <label for="radio_contacts">contacts <i class="fa-solid fa-users" id="this"></i> </label>
+            <label for="radio_settings">Settings <i class="fa-solid fa-gear" id="this"></i></label>
+
             </div>
         </div>
         <div id="right_panel"> 
             <div id="header">My Chat</div>
             <div id="container" style="display: flex;">
-                <div id="inner_left_panel"></div>
+                
+                <div id="inner_left_panel">
+                    
+                </div>
+                <input  type="radio" id="radio_chat" name="on" style="display: none;">
+                <input  type="radio" id="radio_contacts" name="on" style="display: none;" > 
+                <input  type="radio" id="radio_settings" name="on" style="display: none;">
+                
                 <div id="inner_right_panel"></div>
             </div>
         </div>

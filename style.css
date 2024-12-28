@@ -5,22 +5,45 @@
     margin: auto;
     margin-top: 39px;
     color: white;
+    font-size:18px;
 }
 #left_panel{
-    min-height: 500px;
+    min-height : 500px;
     background-color: #E9FFD5;
     flex: 1;
     padding: 10px; 
     text-align: center;                  
 }
+#left_panel label{
+    height: 30px;
+    width:100%;
+    display:block;
+    border: 1px solid rgb(87, 105, 33, 0.3) ; 
+    background-color: #D9FFB0;
+    border-bottom:solid thin #ffffff55;
+    cursor: pointer;
+    padding: 3px;
+    transition: all 0.8s ease;
+}
+#left_panel label:hover{
+    background-color:#ffffff55 ;
+}
+#this{
+    float: right;
+}
 #right_panel{
     min-height: 400px;
     background-color: #D9FFB0;
     flex:4;
+     
 }
 #header{
     background-color: #B5E61D;
     height:70px;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 1em;
+    text-shadow: -1px -1px 6px black;
 }
 #inner_left_panel{
     background-color: #a3b372;
@@ -31,8 +54,21 @@
     background-color: rgb(87, 105, 33);
     min-height:430px;
     flex:1;
+   
 }
-.fa-solid{
+#inner_right_panel{
+    background-color: rgb(87, 105, 33);
+    min-height:430px;
+    flex:2;
+   transition:all 2s ease;
+}
+#radio_contacts:checked ~ #inner_right_panel{
+    flex:0;
+}
+#radio_settings:checked ~ #inner_right_panel{
+    flex:0;
+}
+.fa-solid.fa-user{
     color: rgb(87, 105, 33);
     border:solid 3px rgb(255, 255, 255);
     border-radius: 50%;
@@ -42,11 +78,16 @@
     justify-content: center;
     align-content: center;
 }
-i.fa-solid.fa-user{
+#prof_img{
     margin-top: 20px;
     text-align: center;
     
 }
 #user{
     color: #B5E61D;
+}
+
+span{
+    font-size: 0.69em;
+    opacity: 0.6;
 }
